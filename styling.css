@@ -1,0 +1,49 @@
+.whole{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+   
+    background-image: url(cards.webp);
+    background-size: cover;
+}
+#blackjack{
+    color: rgb(255, 215, 0);
+    display: block;
+    
+
+}
+#heading2{
+    color: white;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.buttons{
+    background-color: rgb(227, 220, 210);
+    font-size: 20px;
+    border:none;
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+    transition:background-color 2s,color 2s;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#drawn{
+    color: white;
+    font-size: 20px;
+}
+#sum{
+    color: white;
+    font-size: 20px;
+}
+#result{
+    color: white;
+    font-size: 20px;
+}
